@@ -3,4 +3,5 @@ project(cProject C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(cProject exercise1/sphere.c)
+add_executable(cProject exercise1/sphere.c
+        exercise1/tax.c)

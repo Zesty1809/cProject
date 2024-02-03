@@ -55,6 +55,12 @@ build CMakeFiles/cProject.dir/exercise1/sphere.c.obj: C_COMPILER__cProject_unsca
   OBJECT_DIR = CMakeFiles\cProject.dir
   OBJECT_FILE_DIR = CMakeFiles\cProject.dir\exercise1
 
+build CMakeFiles/cProject.dir/exercise1/tax.c.obj: C_COMPILER__cProject_unscanned_Debug C$:/Users/adi81/Desktop/programs/c/cProject/exercise1/tax.c || cmake_object_order_depends_target_cProject
+  DEP_FILE = CMakeFiles\cProject.dir\exercise1\tax.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\cProject.dir\exercise1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cProject
@@ -63,7 +69,7 @@ build CMakeFiles/cProject.dir/exercise1/sphere.c.obj: C_COMPILER__cProject_unsca
 #############################################
 # Link the executable cProject.exe
 
-build cProject.exe: C_EXECUTABLE_LINKER__cProject_Debug CMakeFiles/cProject.dir/exercise1/sphere.c.obj
+build cProject.exe: C_EXECUTABLE_LINKER__cProject_Debug CMakeFiles/cProject.dir/exercise1/sphere.c.obj CMakeFiles/cProject.dir/exercise1/tax.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cProject.dir
