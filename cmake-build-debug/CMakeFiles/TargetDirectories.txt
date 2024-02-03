@@ -1,0 +1,3 @@
+C:/Users/adi81/Desktop/programs/c/cProject/cmake-build-debug/CMakeFiles/cProject.dir
+C:/Users/adi81/Desktop/programs/c/cProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/adi81/Desktop/programs/c/cProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
