@@ -1,6 +1,15 @@
 # ninja log v5
 1	124	7285884496776441	CMakeFiles/cProject.dir/main.c.obj	563e65ce1cd051ed
-67	141	7286638449772129	cProject.exe	1bb782d6d00f509c
+7	134	7286647782826047	CMakeFiles/cProject.dir/exercise1/celsius.c.obj	4c5ec53f24007d6f
+65	150	7286755056549612	cProject.exe	50c9bdc0d0462754
 3	142	7286608792239881	CMakeFiles/cProject.dir/exercise1/code1.c.obj	c18dc3e764969721
-1	87	7286641938302352	build.ninja	9425afd3b9d0567d
-2	67	7286638449062419	CMakeFiles/cProject.dir/exercise1/dweight.c.obj	bea8dada4b9930cc
+1	90	7286820920930766	build.ninja	9425afd3b9d0567d
+2	137	7286647782846030	CMakeFiles/cProject.dir/exercise1/dweight.c.obj	bea8dada4b9930cc
+0	64	7286755055729667	CMakeFiles/cProject.dir/exercise1/pattern.c.obj	939e2a22b301975a
+1	84	7286820920930766	build.ninja	9425afd3b9d0567d
+0	143	7286820922521183	CMakeFiles/cProject.dir/exercise1/sphere.c.obj	4f7ee1053ceb08be
+144	364	7286820924682114	cProject.exe	8eb936a1f7c61460
+2	59	7286821040533991	CMakeFiles/cProject.dir/exercise1/sphere.c.obj	4f7ee1053ceb08be
+59	127	7286821041183978	cProject.exe	8eb936a1f7c61460
+2	77	7286823958184960	CMakeFiles/cProject.dir/exercise1/sphere.c.obj	4f7ee1053ceb08be
+78	148	7286823958865141	cProject.exe	8eb936a1f7c61460
