@@ -21,27 +21,32 @@ typedef struct{
 int main(void)
 {
     Employee employee[5];
-
+    char c;
 
     for (int i = 0; i < 5; i++)
     {
-        printf("Employee %d id: ", i+1);
+        printf("Employee %d id: \n", i+1);
         scanf("%d", &employee[i].id);
 
+
+        while ((c = getchar()) != '\n' && c != EOF);
+
         char buffer[100];
-        printf("Employee %d name: ", i+1);
-        scanf("%s", buffer);
+        printf("Employee %d name: \n", i+1);
+        fgets(buffer, sizeof(buffer), stdin);
         employee[i].name = strdup(buffer);
 
-        printf("Employee %d age: ", i+1);
+        printf("Employee %d age: \n", i+1);
         scanf("%d", &employee[i].age);
 
 
-        printf("Employee %d designation: ", i+1);
-        scanf("%s", buffer);
+        while ((c = getchar()) != '\n' && c != EOF);
+
+        printf("Employee %d designation: \n", i+1);
+        fgets(buffer, sizeof(buffer), stdin);
         employee[i].designation = strdup(buffer);
 
-        printf("Employee %d salary: ", i+1);
+        printf("Employee %d salary: \n", i+1);
         scanf("%lf", &employee[i].salary);
 
         printf("\n");
