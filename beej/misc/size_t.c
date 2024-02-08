@@ -7,11 +7,17 @@
 int main(void)
 {
     int a = 999;
+    int *p;
+    int x[12];
 
     printf("%zu\n", sizeof a);
     printf("%zu\n", sizeof(2 + 7));
     printf("%zu\n", sizeof 3.14);
 
-    getchar();
+    printf("%zu\n", sizeof(p));
+    printf("%zu\n", sizeof(*p));
+
+    printf("%zu", sizeof x / sizeof (int));
+
     return 0;
 }
