@@ -14,7 +14,5 @@ int main(void)
         printf("%d\n", r);
     } while (r != 37);      // Repeat until r becomes 37
 
-
-    getchar();
     return 0;
 }
