@@ -4,16 +4,13 @@
 
 #include <stdio.h>
 
-
 struct car {
     char *name;
     float price;
     int speed;
 };
 
-
 void set_price(struct car *c, float new_price);
-
 
 int main(void)
 {
