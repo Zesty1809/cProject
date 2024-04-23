@@ -36,7 +36,7 @@ int main(void) {
 int findElement(int arr[], int n, int key) {
     int i;
 
-    for (int i = 0; i < n; i++) {
+    for (i = 0; i < n; i++) {
         if (arr[i] == key) {
             return i;
         }
